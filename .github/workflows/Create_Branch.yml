@@ -10,5 +10,5 @@ jobs:
     steps:
       - name: Branch main repo
         env:
-          REPO: ${{github.repository}}
+          REPO: ${{github.head_ref}}
         run: echo $REPO
