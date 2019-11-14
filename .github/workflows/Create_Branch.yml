@@ -12,4 +12,4 @@ jobs:
         env:
           BRANCH: ${{github.ref}}
           USER: ${{github.actor}}
-        run: echo $BRANCH
+        run: git checkout -b $USER
