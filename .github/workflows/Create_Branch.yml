@@ -13,4 +13,7 @@ jobs:
         env:
           BRANCH: ${{github.ref}}
           USER: ${{github.actor}}
-        run: git switch -c ActionTest
+        run: | 
+          git checkout -b actionTest01
+          git push -u origin actionTest01
+        
