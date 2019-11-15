@@ -13,4 +13,4 @@ jobs:
         env:
           BRANCH: ${{github.ref}}
           USER: ${{github.actor}}
-        run: git branch ActionTest
+        run: git switch -c ActionTest
