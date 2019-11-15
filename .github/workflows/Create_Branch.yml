@@ -8,8 +8,9 @@ jobs:
   create_branch:
     runs-on: [ubuntu-latest]
     steps:
+      - uses: action/checkout@v1
       - name: Branch main repo
         env:
           BRANCH: ${{github.ref}}
           USER: ${{github.actor}}
-        run: git branch $USER
+        run: git branch ActionTest
