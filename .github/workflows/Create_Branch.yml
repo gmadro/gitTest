@@ -8,12 +8,11 @@ jobs:
   create_branch:
     runs-on: [ubuntu-latest]
     steps:
-      - uses: actions/checkout@v1
       - name: Branch main repo
         env:
           BRANCH: ${{github.ref}}
           USER: ${{github.actor}}
         run: | 
+          git clone https://gmadro:${{ secrets.GITHUB_TOKEN }}@github.com:gmadro/gitTest.git
           git checkout -b actionTest01
           git push -u origin actionTest01
-        
