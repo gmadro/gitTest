@@ -12,4 +12,4 @@ jobs:
         env:
           BRANCH: ${{github.ref}}
           USER: ${{github.actor}}
-        run: git branch -b $USER
+        run: git branch $USER
