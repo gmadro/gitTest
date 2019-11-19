@@ -1,2 +1,2 @@
 # gitTest
-(https://github.com/gmadro/gitTest/workflows/Test%20Code/badge.svg)
+[![Actions Status](https://github.com/gmadro/gitTest/workflows/Test%20Code/badge.svg)](https://github.com/gmadro/gitTest/actions)
