@@ -14,3 +14,4 @@ jobs:
     - name: Run a one-line script
       run: |
         echo Execute Python Test
+        python test_basecode.py
