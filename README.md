@@ -1,2 +1,2 @@
 # gitTest
-![badge](https://action-badges.now.sh/gmadro/gitTest?action=Test%20Code)
+![](https://github.com/actions/hello-world/workflows/Greet%20Everyone/badge.svg)
