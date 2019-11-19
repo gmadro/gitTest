@@ -13,5 +13,6 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run python test
       run: |
+        echo $GITHUB_REF
         ls
         python test_basecode.py
