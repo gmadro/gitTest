@@ -5,10 +5,11 @@ on:
      branches: master 
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
-    steps:
+    steps: 
+    - uses: actions/checkout@v1
     - name: Run a one-line script
       run: echo Run Test
