@@ -1,2 +1,2 @@
 # gitTest
-https://github.com/gmadro/gitTest/workflows/Test_Code/badge.svg
+https://github.com/gmadro/gitTest/workflows/.github/workflows/Test_Code.yaml/badge.svg
