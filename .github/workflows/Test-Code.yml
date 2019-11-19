@@ -11,7 +11,7 @@ jobs:
 
     steps: 
     - uses: actions/checkout@v1
-    - name: Run a one-line script
+    - name: Run python test
       run: |
-        echo Execute Python Test
+        ls
         python test_basecode.py
