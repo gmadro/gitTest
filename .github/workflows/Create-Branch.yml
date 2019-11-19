@@ -1,4 +1,4 @@
-name: Create branch from issue
+name: Create-Branch
 
 on:
   issues:
