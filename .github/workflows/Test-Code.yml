@@ -11,9 +11,5 @@ jobs:
 
     steps: 
     - uses: actions/checkout@v1
-    - name: Run python test
-      shell: python
-      run: |
-        import os
-        print($GITHUB_REF)
-        os.system(python test_basecode.py)
+    - name: Run python unit test
+      run: python text_exec.py
