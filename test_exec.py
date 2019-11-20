@@ -3,7 +3,7 @@ import sys
 
 def run_test(project):
     CWD = os.getcwd()
-    os.system('python ' + CWD + '\\' + project + '\\test.py')
+    os.system('python ' + CWD + '/' + project + '/test.py')
 
 def main():
 
