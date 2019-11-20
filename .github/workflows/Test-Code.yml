@@ -12,4 +12,4 @@ jobs:
     steps: 
     - uses: actions/checkout@v1
     - name: Run python unit test
-      run: python test_exec.py
+      run: python test_exec.py ${GITHUB_REF##*/}
