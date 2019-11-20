@@ -11,6 +11,7 @@ jobs:
 
     steps: 
     - uses: actions/checkout@v1
-    - uses: rlespinasse/github-slug-action@1.0.1
+    #- uses: rlespinasse/github-slug-action@1.0.1
     - name: Run python unit test
-      run: python test_exec.py ${{ env.GITHUB_HEAD_REF_SLUG }}
+      run: python /tests/test.py
+    #  run: python test_exec.py ${{ env.GITHUB_HEAD_REF_SLUG }
