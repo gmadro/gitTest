@@ -11,15 +11,6 @@ jobs:
 
     steps: 
     - uses: actions/checkout@v1
-    #- name: Run python unit test
-    #  run: python test_exec.py ${GITHUB_REF##*/}
-    - name: Test variables
-      run: |
-        echo ${GITHUB_REF##*/}
-        echo ${GITHUB_REF#refs/heads/}
     - uses: rlespinasse/github-slug-action@1.0.1
-    - name: Print slug variables
-      run: |
-        echo ${{ env.GITHUB_REF_SLUG }}
-        echo ${{ env.GITHUB_HEAD_REF_SLUG }}
-        echo ${{ env.GITHUB_BASE_REF_SLUG }}
+    - name: Run python unit test
+      run: python test_exec.py ${{ env.GITHUB_HEAD_REF_SLUG }}
