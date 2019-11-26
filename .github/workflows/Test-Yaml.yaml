@@ -7,6 +7,14 @@ on:
        - '**.yml'
 
 jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps: 
+    - name: Test Placeholder
+      run: Echo Yaml Test
+
   automerge:
     runs-on: ubuntu-latest
     steps:
