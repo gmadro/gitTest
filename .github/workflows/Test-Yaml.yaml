@@ -13,7 +13,7 @@ jobs:
 
     steps: 
     - name: Test Placeholder
-      run: Echo Yaml Test
+      run: echo Yaml Test
 
   automerge:
     runs-on: ubuntu-latest
